@@ -11,7 +11,6 @@ namespace Script.God
     //GameSceneから開始するモック用
     public class MockGameGod : MonoBehaviour
     {
-        [SerializeField] SceneChangerCreator sceneChangerCreator;
         [SerializeField] GameSceneCreatorCreator gameSceneCreatorCreator;
 
         SceneManager sceneManager;
@@ -19,10 +18,8 @@ namespace Script.God
         void Awake()
         {
             DontDestroyOnLoad(gameObject);
-            var sceneChanger = sceneChangerCreator.Create();
             var titleSceneCreator = gameSceneCreatorCreator.Create(new PlayerName("モック用のゲームシーン"));
             sceneManager = new SceneManagerCreator(titleSceneCreator).Create();
-            sceneChanger.ChangedScene.Subscribe(sceneManager.SetScene);
         }
 
         void Update()

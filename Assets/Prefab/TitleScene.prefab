@@ -224,7 +224,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: "\u6C7A\u5B9A"
 --- !u!1 &658405574694491373
 GameObject:
   m_ObjectHideFlags: 0
@@ -351,7 +351,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter text...
+  m_Text: "\u30D7\u30EC\u30A4\u30E4\u30FC\u540D\u3092\u5165\u308C\u3066\u306D"
 --- !u!1 &2585727708811334006
 GameObject:
   m_ObjectHideFlags: 0

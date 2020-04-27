@@ -1,0 +1,14 @@
+{
+  "name": "uni-frame-work",
+  "displayName": "Uni FrameWork",
+  "version": "1.0.9",
+  "unity": "2019.3",
+  "description": "cool library",
+  "author": "elipmoc <relipmoc101@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elipmoc/uni-frame-work.git"
+  }
+}
